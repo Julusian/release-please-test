@@ -5,6 +5,8 @@
 
 	"include-component-in-tag": false,
 
+	"release-type": "node",
+
 	"plugins": [
 		{
 			"type": "node-workspace",
@@ -14,25 +16,19 @@
 
 	"packages": {
 		".": {
-			"release-type": "node"
+			"package-name": "Root"
 		},
-		"packages/core": {
-			"component": "Core",
-			"package-name": "Core",
-			"release-type": "node"
+		"./packages/core": {
+			"package-name": "Core"
 		},
-		"packages/node": {
-			"component": "Node",
-			"package-name": "Node",
-			"release-type": "node"
+		"./packages/node": {
+			"package-name": "Node"
 		},
-		"packages/webhid": {
-			"component": "WebHID",
-			"release-type": "node"
+		"./packages/webhid": {
+			"package-name": "WebHID"
 		},
-		"packages/webhid-demo": {
-			"component": "WebHID-demo",
-			"release-type": "node"
+		"./packages/webhid-demo": {
+			"package-name": "WebHID-demo"
 		}
 	}
 }
