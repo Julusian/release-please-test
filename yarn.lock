@@ -449,20 +449,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@elgato-stream-deck/core@npm:6.0.0, @elgato-stream-deck/core@workspace:packages/core":
+"@reelase-please-test/core@npm:6.0.0, @reelase-please-test/core@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "@elgato-stream-deck/core@workspace:packages/core"
+  resolution: "@reelase-please-test/core@workspace:packages/core"
   dependencies:
     eventemitter3: "npm:^4.0.7"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
 
-"@elgato-stream-deck/node@workspace:packages/node":
+"@reelase-please-test/node@workspace:packages/node":
   version: 0.0.0-use.local
-  resolution: "@elgato-stream-deck/node@workspace:packages/node"
+  resolution: "@reelase-please-test/node@workspace:packages/node"
   dependencies:
-    "@elgato-stream-deck/core": "npm:6.0.0"
+    "@reelase-please-test/core": "npm:6.0.0"
     jpeg-js: "npm:^0.4.4"
     node-hid: "npm:^3.0.0"
     tslib: "npm:^2.6.2"
@@ -471,11 +471,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@elgato-stream-deck/webhid-demo@workspace:packages/webhid-demo":
+"@reelase-please-test/webhid-demo@workspace:packages/webhid-demo":
   version: 0.0.0-use.local
-  resolution: "@elgato-stream-deck/webhid-demo@workspace:packages/webhid-demo"
+  resolution: "@reelase-please-test/webhid-demo@workspace:packages/webhid-demo"
   dependencies:
-    "@elgato-stream-deck/webhid": "npm:6.0.0"
+    "@reelase-please-test/webhid": "npm:6.0.0"
     buffer: "npm:^6.0.3"
     copy-webpack-plugin: "npm:^11.0.0"
     cross-env: "npm:^7.0.3"
@@ -487,11 +487,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@elgato-stream-deck/webhid@npm:6.0.0, @elgato-stream-deck/webhid@workspace:packages/webhid":
+"@reelase-please-test/webhid@npm:6.0.0, @reelase-please-test/webhid@workspace:packages/webhid":
   version: 0.0.0-use.local
-  resolution: "@elgato-stream-deck/webhid@workspace:packages/webhid"
+  resolution: "@reelase-please-test/webhid@workspace:packages/webhid"
   dependencies:
-    "@elgato-stream-deck/core": "npm:6.0.0"
+    "@reelase-please-test/core": "npm:6.0.0"
     "@types/w3c-web-hid": "npm:^1.0.6"
     p-queue: "npm:^6.6.2"
     tslib: "npm:^2.6.2"

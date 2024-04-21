@@ -1,4 +1,4 @@
-import { KeyIndex, StreamDeck, StreamDeckProxy } from '@elgato-stream-deck/core'
+import { KeyIndex, StreamDeck, StreamDeckProxy } from '@reelase-please-test/core'
 
 /**
  * A StreamDeck instance.

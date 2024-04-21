@@ -1,12 +1,12 @@
-# @elgato-stream-deck/webhid
+# @reelase-please-test/webhid
 
 ![Node CI](https://github.com/Julusian/node-elgato-stream-deck/workflows/Node%20CI/badge.svg)
 [![codecov](https://codecov.io/gh/Julusian/node-elgato-stream-deck/branch/master/graph/badge.svg?token=Hl4QXGZJMF)](https://codecov.io/gh/Julusian/node-elgato-stream-deck)
 
-[![npm version](https://img.shields.io/npm/v/@elgato-stream-deck/webhid.svg)](https://npm.im/@elgato-stream-deck/webhid)
-[![license](https://img.shields.io/npm/l/@elgato-stream-deck/webhid.svg)](https://npm.im/@elgato-stream-deck/webhid)
+[![npm version](https://img.shields.io/npm/v/@reelase-please-test/webhid.svg)](https://npm.im/@reelase-please-test/webhid)
+[![license](https://img.shields.io/npm/l/@reelase-please-test/webhid.svg)](https://npm.im/@reelase-please-test/webhid)
 
-[`@elgato-stream-deck/webhid`](https://github.com/julusian/node-elgato-stream-deck) is a shared library for interfacing
+[`@reelase-please-test/webhid`](https://github.com/julusian/node-elgato-stream-deck) is a shared library for interfacing
 with the various models of the [Elgato Stream Deck](https://www.elgato.com/en/gaming/stream-deck).
 
 ## Intended use
@@ -15,7 +15,7 @@ This library has nothing to do with the streamdeck software produced by Elgato. 
 
 ## Install
 
-`$ npm install --save @elgato-stream-deck/webhid`
+`$ npm install --save @reelase-please-test/webhid`
 
 ### Important
 
@@ -103,7 +103,7 @@ The StreamDeck type can be found [here](/packages/core/src/models/types.ts#L15)
 ## Example
 
 ```typescript
-import { requestStreamDecks } from '@elgato-stream-deck/webhid'
+import { requestStreamDecks } from '@reelase-please-test/webhid'
 
 // Prompts the user to select a streamdeck to use
 const myStreamDecks = await requestStreamDecks()

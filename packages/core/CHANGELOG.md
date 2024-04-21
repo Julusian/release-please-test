@@ -43,7 +43,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [5.6.0](https://github.com/julusian/node-elgato-stream-deck/compare/v5.6.0-alpha.0...v5.6.0) (2022-09-30)
 
-**Note:** Version bump only for package @elgato-stream-deck/core
+**Note:** Version bump only for package @reelase-please-test/core
 
 
 
@@ -51,7 +51,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [5.6.0-alpha.0](https://github.com/julusian/node-elgato-stream-deck/compare/v5.5.0...v5.6.0-alpha.0) (2022-09-25)
 
-**Note:** Version bump only for package @elgato-stream-deck/core
+**Note:** Version bump only for package @reelase-please-test/core
 
 
 
@@ -59,7 +59,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [5.5.0](https://github.com/julusian/node-elgato-stream-deck/compare/v5.5.0-alpha.1...v5.5.0) (2022-07-25)
 
-**Note:** Version bump only for package @elgato-stream-deck/core
+**Note:** Version bump only for package @reelase-please-test/core
 
 
 
@@ -116,7 +116,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [5.2.0](https://github.com/julusian/node-elgato-stream-deck/compare/v5.2.0-alpha.1...v5.2.0) (2022-01-25)
 
-**Note:** Version bump only for package @elgato-stream-deck/core
+**Note:** Version bump only for package @reelase-please-test/core
 
 
 
@@ -124,7 +124,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [5.2.0-alpha.1](https://github.com/julusian/node-elgato-stream-deck/compare/v5.2.0-alpha.0...v5.2.0-alpha.1) (2022-01-19)
 
-**Note:** Version bump only for package @elgato-stream-deck/core
+**Note:** Version bump only for package @reelase-please-test/core
 
 
 

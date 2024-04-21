@@ -1,5 +1,5 @@
 {
-	"name": "@elgato-stream-deck/webhid-demo",
+	"name": "@reelase-please-test/webhid-demo",
 	"version": "6.0.0",
 	"private": true,
 	"license": "MIT",
@@ -20,7 +20,7 @@
 		"build": "run g:rimraf dist && cross-env NODE_ENV=production webpack --progress"
 	},
 	"dependencies": {
-		"@elgato-stream-deck/webhid": "6.0.0",
+		"@reelase-please-test/webhid": "6.0.0",
 		"buffer": "^6.0.3",
 		"html-to-image": "^1.11.11"
 	},

@@ -41,7 +41,7 @@ for (const dirname of await fs.readdir(new URL('../packages', import.meta.url)))
 
 const allowPackages = []
 for (const [name, versions] of allDepVersions) {
-	if (name.startsWith('@img/sharp') || name === '@elgato-stream-deck/webhid-demo') {
+	if (name.startsWith('@img/sharp') || name === '@reelase-please-test/webhid-demo') {
 		for (const version of versions) {
 			allowPackages.push(`${name}@${version}`)
 		}

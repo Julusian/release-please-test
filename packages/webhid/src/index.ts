@@ -1,9 +1,9 @@
-import { DEVICE_MODELS, OpenStreamDeckOptions, StreamDeck, VENDOR_ID } from '@elgato-stream-deck/core'
+import { DEVICE_MODELS, OpenStreamDeckOptions, StreamDeck, VENDOR_ID } from '@reelase-please-test/core'
 import { WebHIDDevice } from './device'
 import { encodeJPEG } from './jpeg'
 import { StreamDeckWeb } from './wrapper'
 
-export { DeviceModelId, KeyIndex, StreamDeck, LcdPosition } from '@elgato-stream-deck/core'
+export { DeviceModelId, KeyIndex, StreamDeck, LcdPosition } from '@reelase-please-test/core'
 export { StreamDeckWeb } from './wrapper'
 
 /**

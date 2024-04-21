@@ -1,4 +1,4 @@
-import { StreamDeck, StreamDeckProxy } from '@elgato-stream-deck/core'
+import { StreamDeck, StreamDeckProxy } from '@reelase-please-test/core'
 
 export class StreamDeckNode extends StreamDeckProxy {
 	constructor(device: StreamDeck, private readonly resetToLogoOnClose: boolean) {

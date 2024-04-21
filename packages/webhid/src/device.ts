@@ -1,10 +1,10 @@
-import { HIDDevice as CoreHIDDevice, HIDDeviceInfo } from '@elgato-stream-deck/core'
+import { HIDDevice as CoreHIDDevice, HIDDeviceInfo } from '@reelase-please-test/core'
 import { EventEmitter } from 'events'
 import Queue from 'p-queue'
 
 /**
  * The wrapped browser HIDDevice.
- * This translates it into the common format expected by @elgato-stream-deck/core
+ * This translates it into the common format expected by @reelase-please-test/core
  */
 export class WebHIDDevice extends EventEmitter implements CoreHIDDevice {
 	private readonly device: HIDDevice

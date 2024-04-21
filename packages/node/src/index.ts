@@ -1,10 +1,10 @@
-import { DEVICE_MODELS, OpenStreamDeckOptions, StreamDeck, VENDOR_ID } from '@elgato-stream-deck/core'
+import { DEVICE_MODELS, OpenStreamDeckOptions, StreamDeck, VENDOR_ID } from '@reelase-please-test/core'
 import * as HID from 'node-hid'
 import { NodeHIDDevice, NodeHIDSyncDevice, StreamDeckDeviceInfo } from './device'
 import { encodeJPEG, JPEGEncodeOptions } from './jpeg'
 import { StreamDeckNode } from './wrapper'
 
-export { DeviceModelId, KeyIndex, StreamDeck } from '@elgato-stream-deck/core'
+export { DeviceModelId, KeyIndex, StreamDeck } from '@reelase-please-test/core'
 
 export interface OpenStreamDeckOptionsNode extends OpenStreamDeckOptions {
 	jpegOptions?: JPEGEncodeOptions

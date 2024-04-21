@@ -1,4 +1,4 @@
-import { StreamDeckWeb } from '@elgato-stream-deck/webhid'
+import { StreamDeckWeb } from '@reelase-please-test/webhid'
 import { toCanvas } from 'html-to-image'
 import { Demo } from './demo'
 

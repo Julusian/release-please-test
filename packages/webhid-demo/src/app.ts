@@ -1,4 +1,4 @@
-import { requestStreamDecks, getStreamDecks, StreamDeckWeb, LcdPosition } from '@elgato-stream-deck/webhid'
+import { requestStreamDecks, getStreamDecks, StreamDeckWeb, LcdPosition } from '@reelase-please-test/webhid'
 import { Demo } from './demo/demo'
 import { DomImageDemo } from './demo/dom'
 import { FillWhenPressedDemo } from './demo/fill-when-pressed'

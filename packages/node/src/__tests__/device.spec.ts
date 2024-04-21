@@ -11,7 +11,7 @@ HIDAsync.open = hidOpenMock as any
 
 // Must be required after we register a mock for `node-hid`.
 import { getStreamDeckInfo, listStreamDecks, openStreamDeck } from '../'
-import { VENDOR_ID } from '@elgato-stream-deck/core'
+import { VENDOR_ID } from '@reelase-please-test/core'
 
 describe('StreamDeck Devices', () => {
 	test('no devices', async () => {

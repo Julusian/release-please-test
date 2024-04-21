@@ -34,6 +34,6 @@ module.exports = {
 	preset: 'ts-jest',
 
 	moduleNameMapper: {
-		'@elgato-stream-deck/(.+)': '<rootDir>/packages/$1/src',
+		'@reelase-please-test/(.+)': '<rootDir>/packages/$1/src',
 	},
 }
