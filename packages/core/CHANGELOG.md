@@ -14,6 +14,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [6.1.1](https://github.com/Julusian/release-please-test/compare/v6.1.0...v6.1.1) (2024-04-21)
+
 ## [5.7.3](https://github.com/julusian/node-elgato-stream-deck/compare/v5.7.2...v5.7.3) (2023-06-20)
 
 
