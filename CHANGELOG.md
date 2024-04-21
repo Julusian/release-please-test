@@ -14,6 +14,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [6.2.0](https://github.com/Julusian/release-please-test/compare/v6.1.0...v6.2.0) (2024-04-21)
+
+
+### Features
+
+* adjust config ([47fb770](https://github.com/Julusian/release-please-test/commit/47fb77000637523ff47785cef170eadf8915173c))
+
+
+### Bug Fixes
+
+* add root ([32d2d5c](https://github.com/Julusian/release-please-test/commit/32d2d5c92072502f012e1a84382b7e96ec61986e))
+* adjust ([a44d321](https://github.com/Julusian/release-please-test/commit/a44d3213c45f4b89cf7eb3c8bf066c8500205a4c))
+* another try ([cd5b06f](https://github.com/Julusian/release-please-test/commit/cd5b06f5f756617616c14e19ffd24862718bd012))
+* bad version linking ([573ef98](https://github.com/Julusian/release-please-test/commit/573ef98a60dab48ce8c3a1c2ddbcd90c24a6b166))
+* didnt work ([88d6d37](https://github.com/Julusian/release-please-test/commit/88d6d371d8c685d44a0da331f21ee9f550804ac0))
+* test ([4852c80](https://github.com/Julusian/release-please-test/commit/4852c80a5ce67812f41b5553a1c306cc8cd23ac3))
+* test ([64d4ea2](https://github.com/Julusian/release-please-test/commit/64d4ea25d4b53979a991dd9f3ff080e5cf2d64c8))
+* try again ([18c74a2](https://github.com/Julusian/release-please-test/commit/18c74a25aa3f82e796a4cceee0f02751db78d723))
+* updte manifest ([05d68d4](https://github.com/Julusian/release-please-test/commit/05d68d4a146a261dfac19079a9e8e14b86905d0e))
+
 ## [6.1.0](https://github.com/Julusian/release-please-test/compare/v6.0.0...v6.1.0) (2024-04-21)
 
 

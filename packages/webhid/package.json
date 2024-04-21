@@ -1,6 +1,6 @@
 {
 	"name": "@reelase-please-test/webhid",
-	"version": "6.1.0",
+	"version": "6.1.1",
 	"description": "An npm module for interfacing with the Elgato Stream Deck in the browser",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
@@ -32,7 +32,7 @@
 		"dist"
 	],
 	"dependencies": {
-		"@reelase-please-test/core": "6.1.0",
+		"@reelase-please-test/core": "6.1.1",
 		"@types/w3c-web-hid": "^1.0.6",
 		"p-queue": "^6.6.2",
 		"tslib": "^2.6.2"
