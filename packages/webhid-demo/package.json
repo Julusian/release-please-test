@@ -20,7 +20,7 @@
 		"build": "run g:rimraf dist && cross-env NODE_ENV=production webpack --progress"
 	},
 	"dependencies": {
-		"@reelase-please-test/webhid": "6.0.0",
+		"@reelase-please-test/webhid": "6.1.0",
 		"buffer": "^6.0.3",
 		"html-to-image": "^1.11.11"
 	},

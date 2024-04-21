@@ -51,7 +51,7 @@
 		"node": ">=18.18"
 	},
 	"dependencies": {
-		"@reelase-please-test/core": "6.0.0",
+		"@reelase-please-test/core": "6.1.0",
 		"jpeg-js": "^0.4.4",
 		"node-hid": "^3.0.0",
 		"tslib": "^2.6.2"

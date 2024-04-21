@@ -32,7 +32,7 @@
 		"dist"
 	],
 	"dependencies": {
-		"@reelase-please-test/core": "6.0.0",
+		"@reelase-please-test/core": "6.1.0",
 		"@types/w3c-web-hid": "^1.0.6",
 		"p-queue": "^6.6.2",
 		"tslib": "^2.6.2"
