@@ -1,3 +1,7 @@
 {
-	".": "6.1.0"
+	".": "6.1.0",
+	"packages/core": "1.0.0",
+	"packages/node": "6.1.1",
+	"packages/webhid": "6.1.1",
+	"packages/webhid-demo": "6.0.1"
 }
