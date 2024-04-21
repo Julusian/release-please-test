@@ -1,3 +1,7 @@
 {
-	".": "6.1.0"
+	".": "6.1.0",
+	"@reelase-please-test/core": "6.1.0",
+	"@reelase-please-test/node": "6.1.0",
+	"@reelase-please-test/webhid": "6.1.0",
+	"@reelase-please-test/webhid-demo": "6.1.0"
 }
