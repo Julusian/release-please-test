@@ -14,6 +14,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [6.1.0](https://github.com/Julusian/release-please-test/compare/v6.0.0...v6.1.0) (2024-04-21)
+
+
+### Features
+
+* add `KEY_SPACING_VERTICAL` and `KEY_SPACING_HORIZONTAL` properties ([d69e5c7](https://github.com/Julusian/release-please-test/commit/d69e5c74fe027e3763eee645b1639c367de19155))
+
 ## [5.7.3](https://github.com/julusian/node-elgato-stream-deck/compare/v5.7.2...v5.7.3) (2023-06-20)
 
 
