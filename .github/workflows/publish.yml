@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18.x
-          registry-url: 'https://registry.npmjs.org'
       - name: Check release is desired
         id: do-publish
         run: |
@@ -57,7 +56,9 @@ jobs:
       - name: Publish to NPM
         if: ${{ steps.do-publish.outputs.tag }}
         run: |
-          yarn workspaces foreach --all -pt npm publish --access=public --tag ${{ steps.do-publish.outputs.tag }}
+          yarn config set npmAuthToken $NPM_AUTH_TOKEN
+
+          yarn workspaces foreach --all -pt --exclude elgato-stream-deck-packages npm publish --access=public --tag ${{ steps.do-publish.outputs.tag }}
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           CI: true
