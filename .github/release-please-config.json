@@ -18,16 +18,16 @@
 		".": {
 			"package-name": "Root"
 		},
-		"./packages/core": {
+		"packages/core": {
 			"package-name": "Core"
 		},
-		"./packages/node": {
+		"packages/node": {
 			"package-name": "Node"
 		},
-		"./packages/webhid": {
+		"packages/webhid": {
 			"package-name": "WebHID"
 		},
-		"./packages/webhid-demo": {
+		"packages/webhid-demo": {
 			"package-name": "WebHID-demo"
 		}
 	}
