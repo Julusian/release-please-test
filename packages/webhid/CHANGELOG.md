@@ -14,6 +14,20 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [6.1.1](https://github.com/Julusian/release-please-test/compare/v6.1.0...v6.1.1) (2024-04-21)
+
+
+### Bug Fixes
+
+* bad version linking ([573ef98](https://github.com/Julusian/release-please-test/commit/573ef98a60dab48ce8c3a1c2ddbcd90c24a6b166))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @reelase-please-test/core bumped from 6.1.0 to 6.1.1
+
 ## [5.7.3](https://github.com/julusian/node-elgato-stream-deck/compare/v5.7.2...v5.7.3) (2023-06-20)
 
 **Note:** Version bump only for package @reelase-please-test/webhid
