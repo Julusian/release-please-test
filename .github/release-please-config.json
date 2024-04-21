@@ -17,19 +17,19 @@
 			"release-type": "node"
 		},
 		"packages/core": {
-			"package-name": "Core",
+			"component": "Core",
 			"release-type": "node"
 		},
 		"packages/node": {
-			"pull-request-header": "Node",
+			"component": "Node",
 			"release-type": "node"
 		},
 		"packages/webhid": {
-			"pull-request-header": "WebHID",
+			"component": "WebHID",
 			"release-type": "node"
 		},
 		"packages/webhid-demo": {
-			"pull-request-header": "WebHID-demo",
+			"component": "WebHID-demo",
 			"release-type": "node"
 		}
 	}
