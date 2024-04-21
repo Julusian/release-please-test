@@ -18,10 +18,12 @@
 		},
 		"packages/core": {
 			"component": "Core",
+			"package-name": "Core",
 			"release-type": "node"
 		},
 		"packages/node": {
 			"component": "Node",
+			"package-name": "Node",
 			"release-type": "node"
 		},
 		"packages/webhid": {
