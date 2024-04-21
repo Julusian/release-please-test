@@ -14,6 +14,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [6.1.2](https://github.com/Julusian/release-please-test/compare/v6.1.1...v6.1.2) (2024-04-21)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @reelase-please-test/webhid bumped from 6.1.1 to 6.1.2
+
 ## [6.1.1](https://github.com/Julusian/release-please-test/compare/v6.1.0...v6.1.1) (2024-04-21)
 
 
