@@ -17,7 +17,7 @@
 			"release-type": "node"
 		},
 		"packages/core": {
-			"pull-request-header": "Core",
+			"package-name": "Core",
 			"release-type": "node"
 		},
 		"packages/node": {
