@@ -449,55 +449,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reelase-please-test/core@npm:6.0.0, @reelase-please-test/core@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@reelase-please-test/core@workspace:packages/core"
-  dependencies:
-    eventemitter3: "npm:^4.0.7"
-    tslib: "npm:^2.6.2"
-  languageName: unknown
-  linkType: soft
-
-"@reelase-please-test/node@workspace:packages/node":
-  version: 0.0.0-use.local
-  resolution: "@reelase-please-test/node@workspace:packages/node"
-  dependencies:
-    "@reelase-please-test/core": "npm:6.0.0"
-    jpeg-js: "npm:^0.4.4"
-    node-hid: "npm:^3.0.0"
-    tslib: "npm:^2.6.2"
-  peerDependencies:
-    "@julusian/jpeg-turbo": ^1.1.2 || ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@reelase-please-test/webhid-demo@workspace:packages/webhid-demo":
-  version: 0.0.0-use.local
-  resolution: "@reelase-please-test/webhid-demo@workspace:packages/webhid-demo"
-  dependencies:
-    "@reelase-please-test/webhid": "npm:6.0.0"
-    buffer: "npm:^6.0.3"
-    copy-webpack-plugin: "npm:^11.0.0"
-    cross-env: "npm:^7.0.3"
-    html-to-image: "npm:^1.11.11"
-    ts-loader: "npm:^9.5.1"
-    webpack: "npm:^5.91.0"
-    webpack-cli: "npm:^5.1.4"
-    webpack-dev-server: "npm:^4.15.2"
-  languageName: unknown
-  linkType: soft
-
-"@reelase-please-test/webhid@npm:6.0.0, @reelase-please-test/webhid@workspace:packages/webhid":
-  version: 0.0.0-use.local
-  resolution: "@reelase-please-test/webhid@workspace:packages/webhid"
-  dependencies:
-    "@reelase-please-test/core": "npm:6.0.0"
-    "@types/w3c-web-hid": "npm:^1.0.6"
-    p-queue: "npm:^6.6.2"
-    tslib: "npm:^2.6.2"
-  languageName: unknown
-  linkType: soft
-
 "@emnapi/runtime@npm:^1.1.0":
   version: 1.1.1
   resolution: "@emnapi/runtime@npm:1.1.1"
@@ -1606,6 +1557,55 @@ __metadata:
   checksum: eb5f41f439ff73b247b4a295523d63b5a7ebc229e205f3bee99974c7a18ea05d970c7e56ee0ebfd997a0ed201a6dfdb48298fbda7149bf1c508c8dbc83e6fb27
   languageName: node
   linkType: hard
+
+"@reelase-please-test/core@npm:6.1.1, @reelase-please-test/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@reelase-please-test/core@workspace:packages/core"
+  dependencies:
+    eventemitter3: "npm:^4.0.7"
+    tslib: "npm:^2.6.2"
+  languageName: unknown
+  linkType: soft
+
+"@reelase-please-test/node@workspace:packages/node":
+  version: 0.0.0-use.local
+  resolution: "@reelase-please-test/node@workspace:packages/node"
+  dependencies:
+    "@reelase-please-test/core": "npm:6.1.1"
+    jpeg-js: "npm:^0.4.4"
+    node-hid: "npm:^3.0.0"
+    tslib: "npm:^2.6.2"
+  peerDependencies:
+    "@julusian/jpeg-turbo": ^1.1.2 || ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@reelase-please-test/webhid-demo@workspace:packages/webhid-demo":
+  version: 0.0.0-use.local
+  resolution: "@reelase-please-test/webhid-demo@workspace:packages/webhid-demo"
+  dependencies:
+    "@reelase-please-test/webhid": "npm:6.1.1"
+    buffer: "npm:^6.0.3"
+    copy-webpack-plugin: "npm:^11.0.0"
+    cross-env: "npm:^7.0.3"
+    html-to-image: "npm:^1.11.11"
+    ts-loader: "npm:^9.5.1"
+    webpack: "npm:^5.91.0"
+    webpack-cli: "npm:^5.1.4"
+    webpack-dev-server: "npm:^4.15.2"
+  languageName: unknown
+  linkType: soft
+
+"@reelase-please-test/webhid@npm:6.1.1, @reelase-please-test/webhid@workspace:packages/webhid":
+  version: 0.0.0-use.local
+  resolution: "@reelase-please-test/webhid@workspace:packages/webhid"
+  dependencies:
+    "@reelase-please-test/core": "npm:6.1.1"
+    "@types/w3c-web-hid": "npm:^1.0.6"
+    p-queue: "npm:^6.6.2"
+    tslib: "npm:^2.6.2"
+  languageName: unknown
+  linkType: soft
 
 "@sigstore/bundle@npm:^1.1.0":
   version: 1.1.0
