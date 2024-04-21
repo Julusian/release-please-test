@@ -5,26 +5,25 @@
 
 	"include-component-in-tag": false,
 
+	"plugins": [
+		{
+			"type": "node-workspace",
+			"updateAllPackages": true
+		}
+	],
+
 	"packages": {
-		".": {
-			"release-type": "node",
-			"extra-files": [
-				{
-					"type": "json",
-					"path": "packages/core/package.json",
-					"jsonpath": "$.version"
-				},
-				{
-					"type": "json",
-					"path": "packages/node/package.json",
-					"jsonpath": "$.version"
-				},
-				{
-					"type": "json",
-					"path": "packages/webhid/package.json",
-					"jsonpath": "$.version"
-				}
-			]
+		"packages/core": {
+			"release-type": "node"
+		},
+		"packages/node": {
+			"release-type": "node"
+		},
+		"packages/webhid": {
+			"release-type": "node"
+		},
+		"packages/webhid-demo": {
+			"release-type": "node"
 		}
 	}
 }
